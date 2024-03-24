@@ -16,7 +16,7 @@ public class BubbleSort {
             for (inner = 0; inner < outer; inner++) { // bubbling up
                 //ToDo 3: complete this algorithm, test it, provide its time complexity
                 if (a[inner] > a[inner + 1]) {
-                    // Swap elements if they are in the wrong order
+                    // To swap the numbers if they are in the wrong order
                     temp = a[inner];
                     a[inner] = a[inner + 1];
                     a[inner + 1] = temp;
@@ -39,7 +39,7 @@ public class BubbleSort {
         printArray(arr);
     }
 
-    // Utility method to print an array
+    // To print the array
     public static void printArray(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");

@@ -20,7 +20,7 @@ public class Problem01 {
         // Check each number from 2 to n for primality
         for (int i = 2; i <= n; i++) {
             if (isPrime(i)) {
-                sum += i; // Add prime numbers to the sum
+                sum += i; // Adding prime numbers to the sum
             }
         }
         return sum;
@@ -33,10 +33,10 @@ public class Problem01 {
         }
         for (int i = 2; i <= Math.sqrt(num); i++) {
             if (num % i == 0) {
-                return false; // Not a prime number
+                return false; // False returned if its not a prime number
             }
         }
-        return true; // Prime number
+        return true; // If the prime number detected, return
     }
     //Run n times
     //Space complexity is O(N)

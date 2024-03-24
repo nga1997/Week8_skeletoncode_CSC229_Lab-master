@@ -16,10 +16,10 @@ public class LinearSearch {
         //         - prvoide asymptotic analysis of the developed solution
         for (int i = 0; i < n; i++) {
             if (arr[i] == x) {
-                return i; // Element found, return its index
+                return i; // The element is found, return the index
             }
         }
-        return -1; // Element not found
+        return -1; //The element is not found
     }
 
 
